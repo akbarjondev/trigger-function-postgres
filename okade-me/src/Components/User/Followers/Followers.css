@@ -1,0 +1,11 @@
+ul.followers {
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+}
+ul.followers li {
+	padding: 0.5rem 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}

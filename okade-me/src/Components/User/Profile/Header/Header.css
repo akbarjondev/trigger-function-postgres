@@ -1,0 +1,58 @@
+header.profile {
+	display: flex;
+	flex-direction: column;
+}
+header.profile .infoBox {
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+header.profile .infoBox section:not(.avatar) {
+	display: flex;
+	flex-direction: column;
+}
+header.profile .infoBox section:not(.avatar) h3,
+header.profile .infoBox section:not(.avatar) h4 {
+	margin-bottom: 0.5rem;
+}
+header.profile .infoBox section:not(.avatar) h3 a,
+header.profile .infoBox section:not(.avatar) h4 span + span,
+header.profile .infoBox section:not(.avatar) p span  + span{
+	margin-left: 0.5rem;
+}
+header.profile .infoBox section.avatar img {
+	border-radius: 50%;
+	width: 64px;
+	height: 64px;
+	object-fit: cover;
+}
+header.profile .navbar {
+	background: #e0e0e0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 0.5rem 1rem;
+}
+header.profile .navbar ul {
+	display: flex;
+	flex-direction: row;
+}
+header.profile .navbar ul li {
+	padding: 0 1rem;
+}
+header.profile .navbar ul li:last-child {
+	padding: 0 0 0 1rem;
+}
+header.profile .navbar a {
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: row;
+	color: #000;
+	text-decoration: none;
+}
+header.profile .navbar a:hover {
+	text-decoration: underline;
+}
